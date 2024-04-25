@@ -1,0 +1,83 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+}
+
+.icon{
+    width: 50px;
+    margin-right: 10px;
+}
+.values-list {
+    margin-top: 30px; /* Adjust as needed */
+}
+
+
+.hero-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    width: 100%;
+    color: black;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-text h3 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.about-text ul li {
+    margin-bottom: 10px;
+}
+
+.about-text ul li strong {
+    font-weight: bold;
+}
+
+.about-image {
+    width: 40%;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query pour rendre la disposition des éléments en colonnes sur les appareils plus petits */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text, .about-image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

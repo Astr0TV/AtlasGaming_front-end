@@ -1,0 +1,39 @@
+/* BlogDetails.css */
+
+.blog-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+.BlogDetails-header {
+    background-color: rgba(0, 0, 0, 0.6); /* Fond sombre avec une opacité de 60% */
+    color: #ffffff; /* Couleur du texte blanche */
+    padding: 70px; /* Ajout de marge pour le contenu */
+    /* Appliquer un filtre CSS pour assombrir l'image */
+}
+
+.BlogDetails-header h1 {
+    color: #ffffff; /* Couleur du texte pour les éléments à l'intérieur du conteneur */
+    margin-left: 100px;
+}
+
+.BlogDetails-headertime {
+    color: #ffffff; /* Couleur du texte pour les éléments à l'intérieur du conteneur */
+    margin-left: 100px;
+    font-size: small;
+    color: gray;
+
+}
+
+

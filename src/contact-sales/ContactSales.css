@@ -1,0 +1,90 @@
+/* ContactSales.css */
+
+
+
+.contact-sales-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Ajoute de l'espace au-dessus du formulaire */
+    margin-bottom: 30px; /* Ajoute de l'espace en dessous du formulaire */
+}
+
+.text-sales-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px; /* Ajoute de l'espace au-dessus du formulaire */
+    margin-bottom: 30px; /* Ajoute de l'espace en dessous du formulaire */
+}
+
+
+.contact-sales-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-sales-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-sales-container ul {
+    margin-bottom: 10px;
+}
+
+.contact-sales-container ul li {
+    list-style: none;
+}
+
+.contact-sales-container .content-left {
+    float: left;
+    width: 50%;
+}
+
+.contact-sales-container .form-right {
+    float: right;
+    width: 50%;
+}
+
+.contact-sales-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.contact-sales-container input,
+.contact-sales-container select,
+.contact-sales-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.contact-sales-container textarea {
+    resize: vertical;
+}
+
+.contact-sales-container .checkbox-container {
+    margin-bottom: 15px;
+}
+
+.contact-sales-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-sales-container button:hover {
+    background-color: #0056b3;
+}

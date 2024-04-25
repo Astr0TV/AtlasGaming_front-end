@@ -1,0 +1,56 @@
+/* grand-theft-auto-v.css */
+
+/* Container style */
+.container {
+    display: flex;
+    gap: 12px;
+    color: white;
+}
+
+/* Background style */
+.w-full {
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+/* Image style */
+
+/* Résumé du style */
+#game--summary {
+    margin-top: 20px;
+}
+
+/* Style de la date de sortie */
+#game--data--release {
+    margin-top: 20px;
+}
+
+/* Style du développeur */
+#game--data--developer {
+    margin-top: 20px;
+}
+
+/* Style des dates de sortie */
+#game--data--release-dates {
+    margin-top: 20px;
+}
+
+/* Style du classement */
+#game--data--rank {
+    margin-bottom: -40px;
+}
+
+/* Style des statistiques de visionnage */
+#game--data--viewership {
+    margin-bottom: -40px;
+}
+
+/* Style OpenCritic */
+#game--data--opencritic {
+    margin-bottom: -40px;
+}
+
+/* Style des revenus */
+#game--data--revenue {
+    margin-top: 20px;
+}

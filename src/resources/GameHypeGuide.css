@@ -1,0 +1,108 @@
+.guide-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.guide-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.guide-details {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form-container {
+    width: 300px;
+}
+/* CSS pour styliser le formulaire */
+.form-container {
+    width: 500px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+}
+.textcolor{
+color: black;
+}
+
+
+.form-group p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.form-group a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    margin-left: 10px; /* Ajustez la marge selon vos besoins */
+}
+
+
+.button-group {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Styles pour le bouton de soumission */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.titelcolor{
+    color: #0056b3;
+}
+.facheck{
+margin-right: 5px;
+}

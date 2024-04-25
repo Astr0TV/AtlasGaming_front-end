@@ -1,0 +1,9 @@
+.mega-sub-menu {
+    width: max-content; /* Définit la largeur maximale du menu déroulant en fonction de son contenu */
+    padding-left: 0; /* Supprime le padding gauche pour que le sous-menu commence au bord gauche */
+    padding-right: 0; /* Supprime le padding droit pour que le sous-menu se termine au bord droit */
+}
+
+.mega-menu-column {
+    width: auto !important; /* Assurez-vous que la largeur des colonnes du menu déroulant s'adapte à son contenu */
+}

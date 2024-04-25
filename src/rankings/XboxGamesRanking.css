@@ -1,0 +1,147 @@
+.xbox-games-ranking {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.table-container {
+    width: 100%; /* Ajustez cette valeur en fonction de vos besoins */
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ranking-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-green-200 {
+    color: #68d391;
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.max-w-3xl {
+    max-width: 18rem;
+}
+
+.mb-3 {
+    margin-bottom: 0.75rem;
+}
+
+.max-w-4xl {
+    max-width: 24rem;
+}
+
+.text-balance {
+    color: #f7fafc;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.leading-tight {
+    line-height: 1.25;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+.ranking-header {
+    background-image: url('https://s7d9.scene7.com/is/image/xboxprod/xbox-bg:Image-video-large?fmt=png-alpha');
+    background-color: rgba(0, 0, 0, 0.6); /* Fond sombre avec une opacité de 60% */
+    color: #ffffff; /* Couleur du texte blanche */
+    padding: 70px; /* Ajout de marge pour le contenu */
+    /* Appliquer un filtre CSS pour assombrir l'image */
+}
+
+.ranking-header h6,
+.ranking-header h1,
+.ranking-header button {
+    color: #ffffff; /* Couleur du texte pour les éléments à l'intérieur du conteneur */
+}
+
+.button {
+    /* Styles de base pour les boutons */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: #ffffff; /* Couleur de fond blanc */
+    border: 2px solid #68d391; /* Bordure verte */
+    color: #000000; /* Couleur du texte verte */
+    transition: background-color 0.3s, color 0.3s; /* Ajout d'une transition pour le survol */
+}
+
+.button:hover {
+    background-color: #68d391; /* Changement de couleur au survol */
+    color: #000000; /* Changement de couleur du texte au survol */
+}
+
+.table-container thead th {
+    background-color: rgb(16, 16, 87); /* Changez la couleur de fond en bleu */
+    color: white; /* Changez la couleur du texte en blanc pour une meilleure lisibilité */
+}
+
+.table-container tbody td {
+    padding: 10px; /* Ajouter un peu d'espace autour du contenu dans les cellules */
+}
+
+.table-container tbody td img {
+    margin-right: 10px; /* Ajouter un peu d'espace entre l'image et le texte */
+    width: 80px; /* Augmenter la largeur de l'image */
+    height: auto; /* Assurer le redimensionnement proportionnel de l'image */
+}
+.text-section {
+    margin-bottom: 20px;
+}
+
+.text-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.text-section strong {
+    font-weight: bold;
+}
+
+.text-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.text-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

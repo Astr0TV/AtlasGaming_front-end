@@ -1,0 +1,43 @@
+/* login.css */
+
+.login-page {
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */   
+    align-items: center; /* Centre verticalement */
+    background: linear-gradient(to bottom, rgb(192, 217, 194), rgb(205, 159, 159)); /* Dégradé de vert à rouge */
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+/* login.css */
+.text-black {
+    color: black; /* Définissez la couleur du texte en noir */
+}
+
+
+
+.login-form form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.login-form form label {
+    font-weight: bold;
+}
+
+.login-form form .form-control {
+    margin-bottom: 15px;
+}
+
+.login-form form .btn-primary {
+    margin-top: 10px;
+}
+
+.login-form p {
+    margin-bottom: 10px;
+}

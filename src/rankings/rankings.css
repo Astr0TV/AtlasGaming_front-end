@@ -1,0 +1,87 @@
+.featured-row {
+    background-color: #f8f9fa; /* Couleur de fond pour la rangée */
+  }
+  
+  .featured-content {
+    background-color: #f8f9fa; /* Couleur de fond pour le contenu */
+    padding: 20px; /* Espacement interne */
+    border-radius: 5px; /* Arrondi des coins */
+  }
+  .full-width-row {
+    margin-left: 0 !important; /* Supprime la marge gauche */
+    margin-right: 0 !important; /* Supprime la marge droite */
+    background-color: #f8f9fa; /* Couleur de fond grise */
+  }
+  .side-content {
+    background-color: #f8f9fa; /* Couleur de fond grise */
+  }
+  .ranking-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .ranking-item:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ranking-item .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .ranking-item .card-body {
+    padding: 20px;
+  }
+  
+  .ranking-item .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .ranking-item .card-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .ranking-item .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .featured-label {
+    display: inline-block;
+    margin-bottom: 0.5rem; /* équivalent à mb-2 */
+    padding: 0.25rem 0.625rem; /* équivalent à px-2.5 py-1 */
+    border-radius: 0.25rem; /* équivalent à rounded */
+    background-color: #ebf4ff; /* équivalent à bg-blue-100 */
+    font-size: 0.75rem; /* équivalent à text-xs */
+    font-weight: 500; /* équivalent à font-medium */
+    color: #000; /* équivalent à text-black */
+}
+.featured-label.dark-mode {
+    background-color: #4b5563; /* couleur de fond en mode sombre */
+    color: #d1d5db; /* couleur du texte en mode sombre */
+}
+.report-title {
+  margin-bottom: 0.5rem; /* équivalent à mb-1 */
+  font-size: 1.25rem; /* équivalent à text-pretty */
+  color: #000; /* équivalent à text-black */
+}
+.report-title.dark-mode {
+  color: #fff; /* couleur du texte en mode sombre */
+}
+
+.report-description {
+  margin-bottom: 1rem; /* équivalent à mb-4 */
+  font-size: 0.875rem; /* équivalent à text-balance */
+  line-height: 1.5; /* équivalent à leading-normal */
+  color: #000; /* équivalent à text-black */
+}
+.report-description.dark-mode {
+  color: #ccc; /* couleur du texte en mode sombre */
+}
+
+    
+    

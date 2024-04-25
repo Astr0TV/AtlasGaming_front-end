@@ -1,0 +1,66 @@
+.demo-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(248, 243, 243);
+    margin-top: 30px; /* Ajoute de l'espace au-dessus du formulaire */
+    margin-bottom: 30px; /* Ajoute de l'espace en dessous du formulaire */
+}
+
+
+.demo-form-container h2 {
+    margin-top: 0;
+}
+
+.demo-form-container p {
+    margin-bottom: 20px;
+}
+
+.demo-form-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.demo-form-container input[type="email"],
+.demo-form-container input[type="text"],
+.demo-form-container select,
+.demo-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.demo-form-container select {
+    height: 40px;
+}
+
+.demo-form-container textarea {
+    height: 100px;
+}
+
+.checkbox-container {
+    margin-bottom: 20px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

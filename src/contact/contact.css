@@ -1,0 +1,78 @@
+.contact-form-bg {
+    background: linear-gradient(to bottom, rgb(37, 35, 150) 50%, rgb(255, 255, 255) 50%);
+  }
+  
+  
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .text-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .contact-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form-container p {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-container form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .contact-form-container label {
+    font-weight: bold;
+  }
+  
+  .contact-form-container input,
+  .contact-form-container select,
+  .contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-container input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .checkbox-container label {
+    font-weight: normal;
+  }
+  
+  .contact-form-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
